@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+	font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.cc-navbar {
+	background-color: rgba(0, 0, 0, 0.55);
+	font-family: 'Merriweather', serif;
+	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+	z-index: 99;
+}
+
+.cc-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+	padding-bottom: 20px;
+	border-bottom-color: var(--bs-teal);
+}
+
+.banner,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere2.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.order-form {
+	height: 500px;
+}
+
+.banner .banner-desc h1 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.cc-menu {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere5.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.btn-order {
+	color: var(--bs-teal);
+	border-color: var(--bs-teal);
+	transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
+	color: #fff;
+	background-color: var(--bs-teal);
+}
